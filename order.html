@@ -55,28 +55,30 @@
 		max-width: 603px;
 	}
 
-	#about {
+	#order {
 		padding-top: 220px;
-		margin-left: 60px;
-		margin-right: 60px;
+		margin-left: auto;
+		margin-right: auto;
 		font-family: 'Lexend Deca';
 		font-size: 1.5em;
 		line-height: 1.5;
 		color: rgb(5, 0, 227);
+		text-align: center;
 	}
 
-	#about-mobile {
+	#order-mobile {
 		padding-top: 30px;
-		margin-left: 60px;
-		margin-right: 60px;
+		margin-left: auto;
+		margin-right: auto;
 		font-family: 'Lexend Deca';
 		font-size: 1.5em;
 		line-height: 1.5;
 		color: rgb(5, 0, 227);
+		text-align: center;
 	}
 
 	#credits {
-		margin-top: 30px;
+		margin-top: 20px;
 		margin-bottom: 60px;
 		font-family: 'Lexend Deca';
 		font-size: 1.5em;
@@ -84,6 +86,11 @@
 		text-align: center;
 	}
 
+	a { text-decoration: none; color: rgb(255, 0, 187); }
+	a:visited { text-decoration: none; }
+	a:hover { text-decoration: none; color: pink; }
+	a:focus { text-decoration: none; color: pink; }
+	a:hover, a:active { text-decoration: none; color: pink;}
 	
 	</style>
 
@@ -91,19 +98,22 @@
 
 <div id="content-desktop">
 
+	<a id="top"></a>
+
 	<div id="header">
 		<a href="index.html">
 			<img id="logo" src="img/uhlotuslogo.png"/>
 		</a>
 	</div>
 
-	<div id="about">
-		<span style="font-family: 'Shrikhand'; font-size: 1.1em; line-height: 1">the zine will be here</span> 
-		<span> 
-		</span>
+	<div id="order">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0IynWdpJn1lU9_BFJM1YBJXkxUZ9EX7XE9s-QlZF4sCRL4A/viewform?embedded=true" width="640" height="3500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 	</div>
 
 	<div id="credits">
+
+		<a href="#top">Back to top!</a> <br> <br>
+
 		<span>a project by <a style="text-decoration:none" href="https://andyanyacao.com">Andy Cao</a> with the help of dear friends<br>copyleft :) the dystopia of 2020</span>
 	</div>
 
@@ -111,21 +121,27 @@
 
 <div id="content-mobile">
 
-		<div id="header-mobile">
+	<a id="top-mobile"></a>
+
+	<div id="header-mobile">
 		<a href="index.html">
 			<img id="logo-mobile" src="img/uhlotuslogo-mobile.png"/>
 		</a>
 	</div>
 
-	<div id="about-mobile">
-		<span style="font-family: 'Shrikhand'; font-size: 1.1em; line-height: 1">the zine will be here</span> 
-		<span> 
-		</span>
+	<div id="order-mobile">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0IynWdpJn1lU9_BFJM1YBJXkxUZ9EX7XE9s-QlZF4sCRL4A/viewform?embedded=true" width="400" height="4100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 	</div>
 
 	<div id="credits">
+
+		<a href="#top-mobile">Back to top!</a> <br> <br>
+
 		<span>a project by <a style="text-decoration:none" href="https://andyanyacao.com">Andy Cao</a> with <br> the help of dear friends<br>copyleft :) the dystopia of 2020</span>
 	</div>
+
+	
+
 
 </div>
 
